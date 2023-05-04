@@ -8,11 +8,6 @@ function getCodigo(){
     image.src = url;
     image.id= "imagenCodigo";
     document.getElementById('container').appendChild(image);
-
+    e.preventDefault();
 }
 
-document.getElementById("form").addEventListener('submit', function(e) {
-    console.log('hohoho');
-    e.preventDefault();
-    getCodigo();
-});
