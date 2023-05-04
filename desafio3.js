@@ -11,3 +11,8 @@ function getCodigo(){
 
 }
 
+document.getElementById("form").addEventListener('submit', function(e) {
+    console.log('hohoho');
+    e.preventDefault();
+    getCodigo();
+});
