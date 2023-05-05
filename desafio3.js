@@ -1,6 +1,6 @@
 function onKeyDownHandler(event) {
 
-    var codigo = event.which || event.keyCode;
+    var codigo = event.which || event.key;
 
     window.alert(String.fromCharCode(codigo));
 
