@@ -9,13 +9,16 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="container">
+    <div class="container-fluid align-items-center">
         
-        <form class="row col-10 d-flex mt-5" id="form" style="margin-left:2em">
-            <input type="number" name="codigo" id="codigoDeBarras" placeholder="Ingrese codigo de barras">
-            <button type="button" onclick="getCodigo()" onkeypress="getCodigo()">Buscar</button>
-        </form>
-        <div class="row col-12 justify-content-center  align-items-center m-0 p-0 mt-5"id="container">
+        <div class=" row col-12 mt-5 mx-0">
+            <input type="number" name="codigo" id="codigoDeBarras" placeholder="Ingrese codigo de barras" style="height: 3em;">
+            <button type="button" onclick="getCodigo()" onkeypress="getCodigo()"><img src="./imagenes/iconoCodigoBarras.png" alt="Bootstrap" width="48" height="48">
+            </button>
+        </div>
+            
+        
+        <div class="row col-12 mx-0 mt-5"id="container">
         </div>
     </div>
     

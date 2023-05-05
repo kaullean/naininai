@@ -8,6 +8,6 @@ function getCodigo(){
     image.src = url;
     image.id= "imagenCodigo";
     document.getElementById('container').appendChild(image);
-    e.preventDefault();
+    
 }
 
