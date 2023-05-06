@@ -1,12 +1,3 @@
-function onKeyDownHandler(event) {
-
-    var codigo = event.which || event.key;
-
-    window.alert(String.fromCharCode(codigo));
-
-
-     
-}
 function getCodigo(){
     if(document.getElementById('imagenCodigo')){
         document.getElementById("imagenCodigo").remove();
